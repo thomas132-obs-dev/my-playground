@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "game": "my-fav-playground"
+  },
+  "targets": {},
+  "etags": {},
+  "hosting": {
+    "site": "playground-of-thomas",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
