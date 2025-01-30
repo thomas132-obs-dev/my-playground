@@ -199,7 +199,7 @@ const Chessboard = ({ gameState, roomId, isHost, setGameState }) => {
 
   return (
     <div
-      className={`app flex flex-col md:flex-row ${
+      className={`app flex flex-col aaa md:flex-row ${
         darkMode ? "dark" : "light"
       } `}>
       <div>
